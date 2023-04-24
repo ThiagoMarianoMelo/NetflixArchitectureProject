@@ -1,1 +1,3 @@
 # NetflixArchitectureProject
+
+*  teste
