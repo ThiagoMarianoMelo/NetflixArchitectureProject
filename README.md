@@ -5,6 +5,6 @@
 
 ## Sobre o Aplicativo
 
-## Demandas e Característiicas 
+## Demandas e Características 
 
 ## Arquitetura
