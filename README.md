@@ -19,6 +19,16 @@ No final dos anos 90, mais precisamente em 1999, a Netflix evoluiu o seu sistema
 
 ## Sobre o Aplicativo
 
+Atualmente, a Netflix oferece o streaming de vídeo, o que permite o acesso instantâneo a filmes, séries, documentários, shows e animações presentes no catálogo. O serviço está disponível em 190 países e em mais de 30 idiomas. Com isso, a somatória de assinantes pelo mundo é de cerca de 200 milhões, segundo a plataforma. 
+O modelo atual de negócio teve início em 2007, e de acordo com a empresa, a missão da Netflix é permitir que o acesso a filmes e outros conteúdos seja simples. Sendo assim, basta fazer o cadastro no site e escolher um dos planos disponíveis, com pagamentos mensais, para ter acesso ilimitado aos títulos.
+
+Em 5 de setembro de 2011, a Netflix era lançada no Brasil, mesmo ano em que surgiram os primeiros controles remotos com um botão direto para o serviço, ao acessá-lo pela TV, e neste ano a empresa assinaria contrato de licença com diversas produtoras, entre as quais Paramount, Sony Pictures, BBC Worldwide, MGM e Disney, para citar algumas. A Netflix no Brasil em 2015 já faturava um valor mais alto que o gerado pela TV aberta.
+Muitas produções nacionais entraram no catálogo da plataforma de streaming, além de títulos originais produzidos em solo brasileiro. Mesmo com uma oferta menor de títulos em relação aos EUA, o Brasil pode ser considerado um dos países com uma maior quantidade de produções disponíveis, chegando a ultrapassar muitos países europeus.
+
+Desde 2013, além da transmissão de filmes e séries de terceiros, a Netflix oferece produções originais, como House of Cards, Orange is the New Black, Stranger Things, Narcos e 13 Reasons Why. O primeiro filme original da marca, Beasts of No Nation, foi lançado em 2015.
+
+Ao longo do tempo, a companhia também investiu em ferramentas para melhorar a experiência do usuário. Em 2016, o recurso de download foi adicionado e permitiu o acesso offline. No ano seguinte, foi incluída a opção de pular a abertura dos títulos. Em 2018, o bloqueio por meio de um código PIN foi oferecido como um dos recursos de controle dos pais. Já em 2020, foi lançado o TOP 10, uma lista que exibe os conteúdos mais assistidos. De forma contínua, a empresa faz melhorias no app, a fim de se destacar como a melhor plataforma de streaming.  
+
 ## Demandas e Características 
 
 ## Arquitetura
