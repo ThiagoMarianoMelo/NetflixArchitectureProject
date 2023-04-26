@@ -1,3 +1,5 @@
+# A História e Arquitetura da Netflix
+
 # História 
 
 ![Netflix_logo svg](https://user-images.githubusercontent.com/79367218/234593132-00f2b32e-b4b9-4ee2-83bc-855d64811528.png)
