@@ -1,10 +1,9 @@
 # A História e Arquitetura da Netflix
 
-# História 
+# Como surgiu a Netflix? 
 
 ![Netflix_logo svg](https://user-images.githubusercontent.com/79367218/234593132-00f2b32e-b4b9-4ee2-83bc-855d64811528.png)
 
-## Como surgiu a Netflix?
 A Netflix surgiu em 29 de agosto de 1997, criada pelos empresários Marc Randolph e Reed Hastings, que no início a empresa realizava a locação de DVDs via correios com pedidos realizados na Netflix e em seu site Netflix.com, uma inovação para a época.
 A ideia de alugar filmes via correios foi de grande ajuda para aqueles que não tinham uma locadora próxima de casa. Para garantir a entrega segura e de qualidade aos seus clientes quando efetuado o serviço de locação, os fundadores Marc e Reed testaram o serviço de entrega tradicional pelos correios enviando mídias ópticas para si mesmos, uma vez que as fitas VHS eram muito frágeis e os DVDs estavam ainda entrando no mercado.
 
