@@ -2,5 +2,5 @@ remote_theme: pages-themes/architect@v0.2.0
 gem "github-pages", group: :jekyll_plugins
 
 
-title: Arquitetura do Netflix
+title: Arquitetura da Netflix
 description: Arquitetura de microsserviços
