@@ -33,6 +33,9 @@ Desde 2013, além da transmissão de filmes e séries de terceiros, a Netflix of
 
 Ao longo do tempo, a companhia também investiu em ferramentas para melhorar a experiência do usuário. Em 2016, o recurso de download foi adicionado e permitiu o acesso offline. No ano seguinte, foi incluída a opção de pular a abertura dos títulos. Em 2018, o bloqueio por meio de um código PIN foi oferecido como um dos recursos de controle dos pais. Já em 2020, foi lançado o TOP 10, uma lista que exibe os conteúdos mais assistidos. De forma contínua, a empresa faz melhorias no app, a fim de se destacar como a melhor plataforma de streaming.  
 
+![43e0db2f-fea0-4308-bfb9-09f2a88f6ee4_what_is_netflix_1_en](https://user-images.githubusercontent.com/79367218/234594650-8a9afc53-00ca-428d-a1e1-f218c906db4b.png)
+
+
 ## Demandas e Características 
 
 ## Arquitetura
