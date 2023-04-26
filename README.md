@@ -1,11 +1,8 @@
-# Arquitetura de microsserviços
-
-
-## História 
+# História 
 
 ![Netflix_logo svg](https://user-images.githubusercontent.com/79367218/234593132-00f2b32e-b4b9-4ee2-83bc-855d64811528.png)
 
-### Como surgiu a Netflix?
+## Como surgiu a Netflix?
 A Netflix surgiu em 29 de agosto de 1997, criada pelos empresários Marc Randolph e Reed Hastings, que no início a empresa realizava a locação de DVDs via correios com pedidos realizados na Netflix e em seu site Netflix.com, uma inovação para a época.
 A ideia de alugar filmes via correios foi de grande ajuda para aqueles que não tinham uma locadora próxima de casa. Para garantir a entrega segura e de qualidade aos seus clientes quando efetuado o serviço de locação, os fundadores Marc e Reed testaram o serviço de entrega tradicional pelos correios enviando mídias ópticas para si mesmos, uma vez que as fitas VHS eram muito frágeis e os DVDs estavam ainda entrando no mercado.
 
@@ -20,7 +17,7 @@ No final dos anos 90, mais precisamente em 1999, a Netflix evoluiu o seu sistema
 <img src="https://user-images.githubusercontent.com/79367218/234588555-52eeca6d-a8ce-4b68-8e76-7026bb34fcb7.jpg" />
 </div>
 
-## Sobre o Aplicativo
+# Sobre o Aplicativo
 
 Atualmente, a Netflix oferece o streaming de vídeo, o que permite o acesso instantâneo a filmes, séries, documentários, shows e animações presentes no catálogo. O serviço está disponível em 190 países e em mais de 30 idiomas. Com isso, a somatória de assinantes pelo mundo é de cerca de 200 milhões, segundo a plataforma. 
 O modelo atual de negócio teve início em 2007, e de acordo com a empresa, a missão da Netflix é permitir que o acesso a filmes e outros conteúdos seja simples. Sendo assim, basta fazer o cadastro no site e escolher um dos planos disponíveis, com pagamentos mensais, para ter acesso ilimitado aos títulos.
@@ -36,6 +33,6 @@ Ao longo do tempo, a companhia também investiu em ferramentas para melhorar a e
 ![43e0db2f-fea0-4308-bfb9-09f2a88f6ee4_what_is_netflix_1_en](https://user-images.githubusercontent.com/79367218/234594650-8a9afc53-00ca-428d-a1e1-f218c906db4b.png)
 
 
-## Demandas e Características 
+# Demandas e Características 
 
-## Arquitetura
+# Arquitetura
