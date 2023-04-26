@@ -36,3 +36,10 @@ Ao longo do tempo, a companhia também investiu em ferramentas para melhorar a e
 # Demandas e Características 
 
 # Arquitetura
+
+A Netflix funciona em duas nuvens AWS e Open Connect, que são altamente responsáveis por fornecer o melhor vídeo para os assinantes. 
+
+. Cliente: dispositivo (interface do usuário) que é usado para navegar e reproduzir vídeos Netflix. TV, XBOX, laptop ou telefone celular, etc.
+. OC (conexão aberta) ou Netflix CDN: CDN é a rede de servidores distribuídos em diferentes localizações geográficas e Open Connect é a própria CDN (rede de distribuição de conteúdo) global personalizada da Netflix. Ele lida com tudo o que envolve streaming de vídeo. Ele é distribuído em diferentes locais e, assim que você clicar no botão de reprodução, o stream de vídeo desse componente será exibido em seu dispositivo. Portanto, se você estiver tentando reproduzir o vídeo na América do Norte, o vídeo será servido a partir da conexão aberta mais próxima (ou servidor) em vez do servidor original (resposta mais rápida do servidor mais próximo).
+. Back-end (banco de dados) : esta parte trata de tudo que não envolve streaming de vídeo (antes de você apertar o botão de reprodução), como integrar novo conteúdo, processar vídeos, distribuí-los em servidores localizados em diferentes partes do mundo e gerenciar o tráfego de rede . A maioria dos processos é feita pela Amazon Web Services.
+. Frontend: ReactJS por três razões principalmente: velocidade de inicialização, desempenho de tempo de execução e modularidade. 
