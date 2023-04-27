@@ -38,4 +38,17 @@ Ao longo do tempo, a companhia também investiu em ferramentas para melhorar a e
 
 # Arquitetura
 
-A Netflix funciona em duas nuvens, sendo elas AWS e  Open Connect
+A Netflix funciona em duas nuvens, sendo elas AWS e  Open Connect, responsáveis melhores vídeos para os assinantes.
+
+![Netflix-High-Level-System-Architecture](https://user-images.githubusercontent.com/79367218/235012780-b5fe3c30-d79c-45fa-9fcf-63dd1cbe3455.png)
+
+Os componentes do sistema são:
+
+* Cliente:
+* OC
+* Backend
+* Frontend
+
+## Integração de um vídeo/filme
+
+As produtoras mandam os vídeos com altíssima qualidade, portanto antes de servir os vídeos aos usuários, ele faz um pré-processamento. A Netflix oferece suporte a mais de 2.200 dispositivos e cada um deles requer resoluções e formatos diferentes. Logo, para vídeos visíveis em diferentes dispositivos,ela realiza transcodificação ou codificação, o que envolve encontrar erros e converter o vídeo original em diferentes formatos e resoluções. 
