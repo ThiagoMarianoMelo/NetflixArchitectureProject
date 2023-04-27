@@ -38,13 +38,4 @@ Ao longo do tempo, a companhia também investiu em ferramentas para melhorar a e
 
 # Arquitetura
 
-O estilo arquitetônico da Netflix é construído como uma coleção de serviços. Isso é conhecido como arquitetura de microsserviços e capacita todas as APIs necessárias para aplicativos e aplicativos da web. Quando a solicitação chega ao endpoint, ela chama os outros microsserviços para obter os dados necessários e esses microsserviços também podem solicitar os dados para microsserviços diferentes. Depois disso, uma resposta completa para a solicitação da API é enviada de volta ao terminal. 
-Em uma arquitetura de microsserviço, os serviços devem ser independentes uns dos outros, por exemplo, o serviço de armazenamento de vídeo seria desacoplado do serviço responsável pela transcodificação de vídeos.
-
-![Microservice-Architecture-of-Netflix](https://user-images.githubusercontent.com/79367218/234607756-8a93c171-e67a-4e2b-922b-dfd583188787.jpg)
-
-## Como tornar essa arquitetura confiável?
-
-* Use Hystrix, uma biblioteca projetada para controlar as interações entre serviços distribuídos, adicionando tolerância de latência e lógica de tolerância a falhas. Hystrix faz isso isolando pontos de acesso entre os serviços, sistema remoto e bibliotecas de terceiros. 
-* Separe microsserviços críticos: Podemos separar alguns serviços críticos (ou endpoint ou APIs) e torná-los menos dependentes ou independentes de outros serviços. Pode tornar alguns serviços críticos dependentes apenas de outros serviços confiáveis. Ao escolher os microsserviços críticos, pode incluir todas as funcionalidades básicas, como pesquisar um vídeo, navegar até os vídeos, clicar e reproduzir o vídeo etc. Dessa forma, podendo tornar os endpoints altamente disponíveis e até mesmo no pior dos cenários, pelo menos um usuário será capaz de fazer as coisas básicas.
-* Trate os servidores como sem estado: A ideia é projetar o serviço de forma que, se um dos endpoints estiver apresentando o erro ou não atendendo à solicitação em tempo hábil, você possa alternar para outro servidor e realizar o seu trabalho. Em vez de depender de um servidor específico e preservar o estado nesse servidor, você pode rotear a solicitação para outra instância de serviço e pode ativar automaticamente um novo nó para substituí-lo. Se um servidor parar de funcionar, ele será substituído por outro.
+A Netflix funciona em duas nuvens, sendo elas AWS e  Open Connect
