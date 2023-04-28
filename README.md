@@ -39,21 +39,23 @@ Ao longo do tempo, a companhia também investiu em ferramentas para melhorar a e
 # Arquitetura
 
 A Netflix funciona em duas nuvens, sendo elas AWS e  Open Connect, responsáveis melhores vídeos para os assinantes.
+Vantagens do Open Connect, é menos caro, mais estável e com melhor qualidade
 
 ![Netflix-High-Level-System-Architecture](https://user-images.githubusercontent.com/79367218/235012780-b5fe3c30-d79c-45fa-9fcf-63dd1cbe3455.png)
 
 Os componentes do sistema são:
 
-* Cliente:
-* OC
-* Backend
-* Frontend
+* Cliente: //completar
+* OC //completar
+* Backend //completar
+* Frontend //completar
 
 ## Integração de um vídeo/filme
 
 As produtoras mandam os vídeos com altíssima qualidade, portanto antes de servir os vídeos aos usuários, ele faz um pré-processamento. A Netflix oferece suporte a mais de 2.200 dispositivos e cada um deles requer resoluções e formatos diferentes. Logo, para vídeos visíveis em diferentes dispositivos,ela realiza transcodificação ou codificação, o que envolve encontrar erros e converter o vídeo original em diferentes formatos e resoluções.
 A Netflix também cria otimização de arquivos para diferentes velocidades de rede. A qualidade de um vídeo é boa quando assiste em alta velocidade de rede. Ela cria várias réplicas (aproximadamente 1100-1200) para o mesmo filme com resoluções diferentes. Essas réplicas requerem muita transcodificação e pré-processamento e divide o vídeo original em diferentes partes menores e usando workers paralelos no AWS, converte essas partes em diferentes formatos (como mp4, 3gp, etc) em diferentes resoluções (como 4k, 1080p e mais). 
-Após a transcodificação, uma vez que temos várias cópias dos arquivos para o mesmo filme, esses arquivos são transferidos para cada servidor Open Connect que é colocado em locais diferentes em todo o mundo. 
+Após a transcodificação, uma vez que temos várias cópias dos arquivos para o mesmo filme, esses arquivos são transferidos para cada servidor Open Connect que é colocado em locais diferentes em todo o mundo.
 
 ![Netflix-Transcoding](https://user-images.githubusercontent.com/79367218/235013780-7d175970-b307-48f6-90f4-e7bbc233fb40.png)
 
+Quando o usuário carrega o aplicativo Netflix em seu dispositivo, as instâncias AWS entram em cena lidando com login, recomendações, pesquisa, histórico do usuário, página inicial, etc. Depois disso, quando o usuário aperta o botão play em um vídeo, o Netflix analisa a velocidade da rede ou a estabilidade da conexão e, em seguida, descobre o melhor servidor Open Connect próximo ao usuário. Dependendo do dispositivo e do tamanho da tela, o formato de vídeo correto é transmitido para o dispositivo do usuário.Os dados do usuário que são salvos no AWS, como pesquisas, visualização, localização, dispositivo, comentários e curtidas, a Netflix os usa para construir a recomendação de filme para usuários que usam o modelo de aprendizado de máquina ou Hadoop. 
