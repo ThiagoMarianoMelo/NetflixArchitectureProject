@@ -51,4 +51,9 @@ Os componentes do sistema são:
 
 ## Integração de um vídeo/filme
 
-As produtoras mandam os vídeos com altíssima qualidade, portanto antes de servir os vídeos aos usuários, ele faz um pré-processamento. A Netflix oferece suporte a mais de 2.200 dispositivos e cada um deles requer resoluções e formatos diferentes. Logo, para vídeos visíveis em diferentes dispositivos,ela realiza transcodificação ou codificação, o que envolve encontrar erros e converter o vídeo original em diferentes formatos e resoluções. 
+As produtoras mandam os vídeos com altíssima qualidade, portanto antes de servir os vídeos aos usuários, ele faz um pré-processamento. A Netflix oferece suporte a mais de 2.200 dispositivos e cada um deles requer resoluções e formatos diferentes. Logo, para vídeos visíveis em diferentes dispositivos,ela realiza transcodificação ou codificação, o que envolve encontrar erros e converter o vídeo original em diferentes formatos e resoluções.
+A Netflix também cria otimização de arquivos para diferentes velocidades de rede. A qualidade de um vídeo é boa quando assiste em alta velocidade de rede. Ela cria várias réplicas (aproximadamente 1100-1200) para o mesmo filme com resoluções diferentes. Essas réplicas requerem muita transcodificação e pré-processamento e divide o vídeo original em diferentes partes menores e usando workers paralelos no AWS, converte essas partes em diferentes formatos (como mp4, 3gp, etc) em diferentes resoluções (como 4k, 1080p e mais). 
+Após a transcodificação, uma vez que temos várias cópias dos arquivos para o mesmo filme, esses arquivos são transferidos para cada servidor Open Connect que é colocado em locais diferentes em todo o mundo. 
+
+![Netflix-Transcoding](https://user-images.githubusercontent.com/79367218/235013780-7d175970-b307-48f6-90f4-e7bbc233fb40.png)
+
