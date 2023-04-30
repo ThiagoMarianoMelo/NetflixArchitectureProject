@@ -36,6 +36,23 @@ Ao longo do tempo, a companhia também investiu em ferramentas para melhorar a e
 
 # Demandas e Características 
 
+A Netflix é um serviço de streaming de vídeo que oferece uma vasta seleção de filmes, programas de TV, documentários e outros conteúdos, disponíveis para visualização sob demanda em vários dispositivos, como smartphones, tablets, Smart TVs, consoles de videogame, laptops e desktops.
+
+Algumas das demandas mais importantes da Netflix incluem:
+
+* Conteúdo original: A Netflix tem investido cada vez mais na produção de conteúdo próprio, incluindo séries, filmes, documentários e programas de TV, que não são encontrados em nenhum outro lugar.
+* Diversidade: A Netflix tem se esforçado para incluir uma ampla variedade de conteúdo, incluindo produções internacionais, conteúdo infantil, documentários e séries de TV em vários gêneros.
+* Personalização: A Netflix utiliza algoritmos para recomendar conteúdo personalizado aos seus usuários, com base em seus históricos de visualização e classificações.
+* Disponibilidade: A Netflix está disponível em todo o mundo e pode ser acessada em vários dispositivos, tornando o acesso ao conteúdo fácil e conveniente.
+
+Algumas das características da Netflix incluem:
+
+* Interface intuitiva: A interface da Netflix é fácil de usar e navegar, permitindo que os usuários encontrem facilmente o que estão procurando.
+* Qualidade de vídeo: A Netflix oferece uma qualidade de vídeo excelente, incluindo a opção de assistir em 4K Ultra HD e HDR.
+* Sem anúncios: A Netflix é livre de anúncios, permitindo que os usuários assistam ao conteúdo sem interrupções.
+* Offline viewing: A Netflix permite que os usuários baixem conteúdo para visualização offline, tornando-o conveniente para viagens ou locais com conexões de internet limitadas.
+* Preço acessível: A Netflix oferece preços razoáveis para seus planos de assinatura, tornando-o acessível para muitas pessoas.
+
 # Arquitetura
 
 A Netflix funciona em duas nuvens, sendo elas AWS e  Open Connect, responsáveis pelos melhores vídeos para os assinantes.
