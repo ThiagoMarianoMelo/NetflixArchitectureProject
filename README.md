@@ -61,7 +61,7 @@ Após a transcodificação, uma vez que temos várias cópias dos arquivos para 
 Quando o usuário carrega o aplicativo Netflix em seu dispositivo, as instâncias AWS entram em cena lidando com login, recomendações, pesquisa, histórico do usuário, página inicial, etc. Depois disso, quando o usuário aperta o botão play em um vídeo, o Netflix analisa a velocidade da rede ou a estabilidade da conexão e, em seguida, descobre o melhor servidor Open Connect próximo ao usuário. Dependendo do dispositivo e do tamanho da tela, o formato de vídeo correto é transmitido para o dispositivo do usuário.Os dados do usuário que são salvos no AWS, como pesquisas, visualização, localização, dispositivo, comentários e curtidas, a Netflix os usa para construir a recomendação de filme para usuários que usam o modelo de aprendizado de máquina ou Hadoop. 
 
 * Elastic Load Balancer: É responsável por rotear o tráfego para serviços de front-end, executa um esquema de balanceamento de carga de duas camadas, em que a carga é balanceada primeiro nas zonas e, em seguida, nas instâncias (servidores). 
-//foto 
+![Elastic Load Balancer](https://user-images.githubusercontent.com/79367218/235373800-eb4a4e02-5838-499b-9593-63a58d0a527a.jpg) 
 * ZUUL: É um serviço de gateway que fornece roteamento dinâmico, monitoramento, resiliência e segurança. Ele fornece roteamento fácil com base em parâmetros de consulta, URL, caminho.
 * Hystrix: Biblioteca que controla as interações entre serviços distribuídos, adicionando tolerância de latência e lógica de tolerância a falhas. Hystrix faz isso isolando pontos de acesso entre os serviços, sistema remoto e bibliotecas de terceiros.
 * Arquitetura de microsserviço da Netflix:
