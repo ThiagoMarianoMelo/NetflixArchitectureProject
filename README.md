@@ -38,17 +38,17 @@ Ao longo do tempo, a companhia também investiu em ferramentas para melhorar a e
 
 # Arquitetura
 
-A Netflix funciona em duas nuvens, sendo elas AWS e  Open Connect, responsáveis melhores vídeos para os assinantes.
+A Netflix funciona em duas nuvens, sendo elas AWS e  Open Connect, responsáveis pelos melhores vídeos para os assinantes.
 Vantagens do Open Connect, é menos caro, mais estável e com melhor qualidade
 
 ![Netflix-High-Level-System-Architecture](https://user-images.githubusercontent.com/79367218/235012780-b5fe3c30-d79c-45fa-9fcf-63dd1cbe3455.png)
 
 Os componentes do sistema são:
 
-* Cliente: //completar
-* OC //completar
-* Backend //completar
-* Frontend //completar
+* Cliente: Dispositivos que é usado para navegar e reproduzir vídeos Netflix. Como TV, XBOX, laptop ou telefone celular, etc.
+* OC: CDN é a rede de servidores distribuídos em diferentes localizações geográficas e Open Connect é a própria CDN (rede de distribuição de conteúdo) global personalizada da Netflix. Ele lida com tudo o que envolve streaming de vídeo. Ele é distribuído em diferentes locais e, assim que você clicar no botão de reprodução, o stream de vídeo desse componente será exibido em seu dispositivo..
+* Backend: Trata de tudo que não envolve streaming de vídeo (antes de você apertar o botão de reprodução), como integrar novo conteúdo, processar vídeos, distribuí-los em servidores localizados em diferentes partes do mundo e gerenciar o tráfego de rede . A maioria dos processos é feita pela Amazon Web Services.
+* Frontend: É escrito em ReactJS por três razões principalmente, velocidade de inicialização, desempenho de tempo de execução e modularidade. 
 
 ## Integração de um vídeo/filme
 
