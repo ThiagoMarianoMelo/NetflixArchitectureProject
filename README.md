@@ -89,3 +89,8 @@ O estilo arquitetônico da Netflix é construído como uma coleção de serviço
 * Banco de dados: A Netflix usa dois bancos de dados diferentes: MySQL (RDBMS) para salvar dados como informações de faturamento, informações do usuário e informações de transações e Cassandra (NoSQL) para o armazenamento de dados do histórico de visualização.
 * Processamento de dados no Netflix usando Kafka e Apache Chukwa: Para ingerir os dados produzidos em uma parte diferente do sistema. A Netflix oferece quase 500 bilhões de eventos de dados que consomem 1,3 PB / dia e 8 milhões de eventos que consomem 24 GB / segundo durante o horário de pico. Apache Chukwe é um sistema de coleta de dados de código aberto para coletar logs ou eventos de um sistema distribuído. Para fazer upload de eventos online para EMR / S3, a Chukwa também fornece tráfego para o Kafka (portão principal no processamento de dados em tempo real). Kafka é responsável por mover os dados de fronting Kafka para vários coletores: S3, Elasticsearch e Kafka secundário.
 * Apache Spark: É usado para recomendações e personalização de conteúdo, decide que tipo de linhas ou filmes devem ser exibidos para um usuário específico. Esses dados são baseados nos dados históricos e nas preferências do usuário. Além disso, para esse usuário específico, a Netflix realiza a triagem dos filmes e calcula a classificação de relevância (para recomendação) desses filmes disponíveis em sua plataforma. 
+
+## Referências
+ - https://downloads.editoracientifica.org/articles/201102018.pdf
+ - https://pt.wikipedia.org/wiki/Netflix
+ - https://acervolima.com/a-historia-da-netflix-e-dos-microsservicos/
